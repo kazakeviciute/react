@@ -4,17 +4,17 @@ import Button from "./Button";
 import { useContext } from "react";
 import { UserContext } from "../context/UserContext";
 
-const PostCard = ({ post, handleDeletePost }) => {
+const PostCard = ({ post, handleDeletePost, }) => {
   const { user } = useContext(UserContext);
 
   return (
     <div className={styles.postCard}>
       <img src={post.imageUrl} alt={post.title} className={styles.postImage} />
-      <h2 className={styles.postTitle}>{post.title}</h2>
+      <h2 className={styles.postTitle}>{post.title} </h2>
       <div className={styles.postFooter}>
         <p className={styles.postText}>{post.text}</p>
         {user && post.createdBy === user.email && (
-          <Button onClick={handleDeletePost}>Delete</Button>
+          <Button onClick={handleDeletePost}>Delete</Button >
         )}
       </div>
     </div>

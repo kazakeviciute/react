@@ -6,7 +6,7 @@ const FormField = ({ label, ...props }) => {
   const [field, meta] = useField(props);
 
   return (
-    <div className={styles.formField}>
+    <div className={styles.formField}> 
       <label htmlFor={props.name}>{label}</label>
       <input {...field} {...props} />
       {meta.touched && meta.error ? (

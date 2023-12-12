@@ -1,10 +1,10 @@
 @import "../styles/colors";
 
 .button {
-  background-color: $primary-color;
-  color: white;
+  background-color: #F2877D;
+  color: rgb(61, 24, 24);
   padding: 10px 20px;
-  border: none;
+  border: solid;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s;
