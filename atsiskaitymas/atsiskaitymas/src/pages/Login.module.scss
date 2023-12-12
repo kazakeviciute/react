@@ -1,0 +1,67 @@
+@import "../styles/colors";
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  .formWrapper {
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 800px;
+  }
+
+  .error {
+    color: red;
+  }
+
+  .link {
+    margin-top: 1rem;
+
+    a {
+      color: $primary-color;
+    }
+  }
+}
+
+.field {
+  margin-bottom: 1rem;
+}
+
+div.wrapper {
+		position: relative;
+		clear: both;
+		width: 100%;
+		//border : 1px solid #000000;
+		overflow:auto;
+		//background: #F2877D;
+		}
+		
+		div.left {
+		float: left;
+		width: 49%;
+		//background: #F2877D;
+		//border : 1px solid #000006;
+
+		}	
+		div.right {
+		float: right;
+		width: 49%;
+		//background: #ffffff;
+		//border : 1px solid #000001;
+		}
+		
+		.wrapper p{
+		margin:0px;
+		}
+		

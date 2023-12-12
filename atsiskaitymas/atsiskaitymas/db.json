@@ -1,0 +1,47 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "rokaszxc",
+        "email": "rokas@gmail.com",
+        "password": "rokas123"
+      },
+      {
+        "username": "rokasz",
+        "email": "rokas@rokas.com",
+        "password": "rokas123",
+        "confirmPassword": "rokas123",
+        "id": 2
+      },
+      {
+        "username": "rokasz123",
+        "email": "rokas@rokas.com",
+        "password": "rokas123",
+        "confirmPassword": "rokas123",
+        "id": 3
+      },
+      {
+        "username": "testukaz",
+        "email": "test@gmail.com",
+        "password": "test123",
+        "confirmPassword": "test123",
+        "id": 4
+      },
+      {
+        "username": "rokas123",
+        "email": "rokas123@gmail.com",
+        "password": "rokas123",
+        "confirmPassword": "rokas123",
+        "id": 5
+      }
+    ],
+    "posts": [
+      {
+        "title": "test Rokas",
+        "text": "123",
+        "imageUrl": "https://images.fineartamerica.com/images-medium-large/euro-currency-symbol-in-focus-bjorn-holland.jpg",
+        "createdBy": "rokas@gmail.com",
+        "id": 4
+      }
+    ]
+  }
